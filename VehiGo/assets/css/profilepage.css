@@ -1,0 +1,23 @@
+.profilepic{
+    border-radius: 50%;
+    display: inline;
+    margin-right: 15px;
+    width: 350px;
+  }
+  .ppdetail{
+    display: inline;
+    padding: 1px;
+    
+  }
+  .profile { 
+    padding-top: 50px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    gap: 10px 15px;
+    margin-bottom: 30px;
+  }
+  span.total_cars{
+    font-weight: bold;
+  }

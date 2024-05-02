@@ -1,0 +1,80 @@
+.selection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 165px;
+    gap: 100px;
+    
+}
+
+.card1 {
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    box-shadow: 3px 3px 20px hsla(0, 0%, 0%, 0.5);
+    border-radius: 12px;
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+
+.card1::after{
+    text-decoration: none;
+    color: black;
+}
+
+.card1:active{
+    color: black;
+}
+
+.card2 {
+    width: 350px;
+    height: 350px;
+    box-shadow: 3px 3px 20px hsla(0, 0%, 0%, 0.5);
+    border-radius: 12px;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    background-color:#fff;
+}
+
+.card2::after{
+    text-decoration: none;
+    color: black;
+}
+
+.card2:active{
+    color: black;
+}
+
+.head_card {
+    padding-left: 15px;
+    padding-top: 3px;
+    
+}
+
+input[type="submit"] {
+    display: block;
+    width: 20%;
+    margin: 1em auto;
+    height: 3em;
+    font-size: 1.1rem;
+    border-color: white;
+    min-width: 300px;
+    cursor: pointer;
+    color: white;
+    background-color: #0171d3;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.owner >img{
+    width: 124px;
+    padding-top: 35px;
+    margin-left: 114px;
+    margin-bottom: 20px;
+}
+.owner{
+    text-align: center;
+}

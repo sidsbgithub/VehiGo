@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Service Feedback</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/feebackForm.css">
+
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Open+Sans&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header" data-header>
+        <div class="container">
+
+            <div class="overlay" data-overlay></div>
+
+            <a href="index.html" class="logo">
+                <img src="./assets/images/vehigologo.png" alt="VehiGo logo">
+            </a>
+
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+
+                    <li>
+                        <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#featured-car" class="navbar-link" data-nav-link>Explore cars</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-link" data-nav-link>About us</a>
+                    </li>
+
+                    <li>
+                        <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+
+                <div class="header-contact">
+                    <a href="tel:1800100100" class="contact-link">1800-100-100</a>
+
+                    <span class="contact-time">Mon - Sat: 9:00 am - 6:00 pm</span>
+                </div>
+
+                <!-- <a href="#featured-car" class="btn" aria-labelledby="aria-label-txt">
+                        <ion-icon name="car-outline"></ion-icon>
+
+                        <span id="aria-label-txt">Explore cars</span>
+                    </a>
+
+                    <a href="./login.html" class="btn user-btn" aria-label="Profile">
+                        <ion-icon name="person-outline"></ion-icon>
+                    </a>
+
+                    <button class="nav-toggle-btn" data-nav-toggle-btn aria-label="Toggle Menu">
+                        <span class="one"></span>
+                        <span class="two"></span>
+                        <span class="three"></span>
+                    </button> -->
+
+            </div>
+
+        </div>
+    </header>
+
+    <main class="feedback">
+        <h1 class="feedbackCustom">Car Rental Service Feedback Form</h1>
+
+        <div class="feedbackFor">
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Customer Information:</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required
+                        style="margin-bottom: 15px;">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Rental Details:</legend>
+                    <label for="reservationNumber">Rental Reservation Number:</label>
+                    <input type="text" id="reservationNumber" name="reservationNumber" placeholder="Enter Rental reservation number" required>
+
+                    <label for="location">Rental Location:</label>
+                    <input type="text" id="location" name="location" placeholder="Enter rental location" required>
+
+                    <div class="legendary">
+                        <label for="rentalDates">Rental Dates: From</label>
+                        <input type="date" id="rentalDatesFrom" name="rentalDatesFrom" required>
+                        <label for="rentalDatesTo">to</label>
+                        <input type="date" id="rentalDatesTo" name="rentalDatesTo" required><br><br>
+                    </div>
+                </fieldset>
+
+
+
+                <fieldset class="project">
+
+                    <legend>Ratings:</legend>
+
+                    <div class="question">
+                        <h4>1. Overall Experience:</h4>
+                        <h5>Please rate your overall experience with our car rental service.</h5>
+                        <div class="star-rating">
+                            <input type="checkbox" id="star5_1" class="rating" name="rating1[]" value="5">
+                            <label for="star5_1"></label>
+                            <input type="checkbox" id="star4_1" class="rating" name="rating1[]" value="4">
+                            <label for="star4_1"></label>
+                            <input type="checkbox" id="star3_1" class="rating" name="rating1[]" value="3">
+                            <label for="star3_1"></label>
+                            <input type="checkbox" id="star2_1" class="rating" name="rating1[]" value="2">
+                            <label for="star2_1"></label>
+                            <input type="checkbox" id="star1_1" class="rating" name="rating1[]" value="1">
+                            <label for="star1_1"></label>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <h4>2. Vehicle Quality:</h4>
+                        <h5>How would you rate the quality and condition of the rental vehicle?</h5>
+                        <div class="star-rating">
+                            <input type="checkbox" id="star5_2" class="rating" name="rating2[]" value="5">
+                            <label for="star5_2"></label>
+                            <input type="checkbox" id="star4_2" class="rating" name="rating2[]" value="4">
+                            <label for="star4_2"></label>
+                            <input type="checkbox" id="star3_2" class="rating" name="rating2[]" value="3">
+                            <label for="star3_2"></label>
+                            <input type="checkbox" id="star2_2" class="rating" name="rating2[]" value="2">
+                            <label for="star2_2"></label>
+                            <input type="checkbox" id="star1_2" class="rating" name="rating2[]" value="1">
+                            <label for="star1_2"></label>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <h4> 3. Reservation Process:</h4>
+                        <h5> How easy was it to make a reservation with us?</h5>
+                        <div class="star-rating">
+                            <input type="checkbox" id="star5_2" class="rating" name="rating2[]" value="5">
+                            <label for="star5_3"></label>
+                            <input type="checkbox" id="star4_3" class="rating" name="rating2[]" value="4">
+                            <label for="star4_3"></label>
+                            <input type="checkbox" id="star3_3" class="rating" name="rating2[]" value="3">
+                            <label for="star3_3"></label>
+                            <input type="checkbox" id="star2_3" class="rating" name="rating2[]" value="2">
+                            <label for="star2_3"></label>
+                            <input type="checkbox" id="star1_3" class="rating" name="rating2[]" value="1">
+                            <label for="star1_3"></label>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <h4>4. Vehicle Pickup Process:</h4>
+                        <h5>How smooth was the vehicle pickup process?</h5>
+                        <div class="star-rating">
+                            <input type="checkbox" id="star5_4" class="rating" name="rating1[]" value="5">
+                            <label for="star5_4"></label>
+                            <input type="checkbox" id="star4_4" class="rating" name="rating1[]" value="4">
+                            <label for="star4_4"></label>
+                            <input type="checkbox" id="star3_4" class="rating" name="rating1[]" value="3">
+                            <label for="star3_4"></label>
+                            <input type="checkbox" id="star2_4" class="rating" name="rating1[]" value="2">
+                            <label for="star2_4"></label>
+                            <input type="checkbox" id="star1_4" class="rating" name="rating1[]" value="1">
+                            <label for="star1_4"></label>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <h4>5. Vehicle Return Process:</h4>
+                        <h5>How smooth was the vehicle return process?</h5>
+                        <div class="star-rating">
+                            <input type="checkbox" id="star5_5" class="rating" name="rating1[]" value="5">
+                            <label for="star5_5"></label>
+                            <input type="checkbox" id="star4_5" class="rating" name="rating1[]" value="4">
+                            <label for="star4_5"></label>
+                            <input type="checkbox" id="star3_5" class="rating" name="rating1[]" value="3">
+                            <label for="star3_5"></label>
+                            <input type="checkbox" id="star2_5" class="rating" name="rating1[]" value="2">
+                            <label for="star2_5"></label>
+                            <input type="checkbox" id="star1_5" class="rating" name="rating1[]" value="1">
+                            <label for="star1_5"></label>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <h4>6. Cleanliness:</h4>
+                        <h5>Was the rental vehicle clean and well-maintained when you received it?</h5>
+                        <div class="star-rating">
+                            <input type="checkbox" id="star5_6" class="rating" name="rating1[]" value="5">
+                            <label for="star5_6"></label>
+                            <input type="checkbox" id="star4_6" class="rating" name="rating1[]" value="4">
+                            <label for="star4_6"></label>
+                            <input type="checkbox" id="star3_6" class="rating" name="rating1[]" value="3">
+                            <label for="star3_6"></label>
+                            <input type="checkbox" id="star2_6" class="rating" name="rating1[]" value="2">
+                            <label for="star2_6"></label>
+                            <input type="checkbox" id="star1_6" class="rating" name="rating1[]" value="1">
+                            <label for="star1_6"></label>
+                        </div>
+                    </div>
+
+                    <h4>Additional Comments:</h4>
+                    <h5>Please provide any additional comments or suggestions for improvement:</h5>
+                    <input id="Additional-Comments" name="Additional-Comments
+                " type="text" placeholder="Additional Comments" required />
+
+                    <h4>Would You Recommend Us?</h4>
+                    <h5>Would you recommend our car rental service to friends or family?</h5>
+                    <select id="overallExperience" name="overallExperience" required>
+                        <option disabled selected value="">Select an option</option>
+                        <option value="Yes, definitely">Yes, definitely</option>
+                        <option value="Yes, maybe">Yes, maybe</option>
+                        <option value="No, probably not">No, probably not</option>
+                        <option value="No, definitely not">No, definitely not</option>
+                    </select>
+                </fieldset>
+
+            </form>
+
+        </div>
+
+        <input type="submit" value="Submit">
+    </main>
+
+
+    </form>
+
+    <script>
+        // JavaScript to allow deselection of stars in the middle for each question
+        const ratingSets = document.querySelectorAll('.question');
+        ratingSets.forEach((question) => {
+            const checkboxes = question.querySelectorAll('.rating');
+            checkboxes.forEach((checkbox, index) => {
+                checkbox.addEventListener('change', (event) => {
+                    const checked = event.target.checked;
+                    for (let i = 0; i < checkboxes.length; i++) {
+                        if (i < index) {
+                            checkboxes[i].checked = checked;
+                        } else if (i > index) {
+                            checkboxes[i].checked = false;
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

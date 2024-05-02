@@ -1,0 +1,166 @@
+.star-rating {
+    display: inline-flex;
+}
+
+.star-rating input[type="checkbox"] {
+    display: none;
+}
+
+.star-rating label {
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.star-rating label:before {
+    content: "\2605";
+    margin-right: 5px;
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+.star-rating input[type="checkbox"]:checked+label:before {
+    content: "\2605";
+    color: #FFD700;
+}
+
+.feedbackCustom {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.feedbackFor {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+fieldset {
+    margin: 20px;
+    background-color: white;
+    width: 537px;
+    justify-content: center;
+}
+
+fieldset .project {
+    height: 1000px;
+}
+
+label {
+    padding-left: 8px;
+}
+
+.legendary {
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.feedback {
+    margin-top: 120px;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 20%;
+    margin: 1em auto;
+    height: 3em;
+    font-size: 1.1rem;
+    border-color: white;
+    min-width: 300px;
+    cursor: pointer;
+    color: white;
+    background-color: #0171d3;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+input[type="text"],
+textarea {
+    background-color: white;
+    border: 1px solid #CACACA;
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 500px;
+    margin-left: 5px;
+}
+
+input[type="email"],
+textarea {
+    background-color: #fff;
+    border: 1px solid #CACACA;
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 500px;
+    margin-left: 5px;
+}
+
+input[type="tel"],
+textarea {
+    background-color: #fff;
+    border: 1px solid #CACACA;
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 500px;
+    margin-left: 5px;
+
+}
+
+input[type="date"],
+textarea {
+    background-color: #fff;
+    border: 1px solid #CACACA;
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 160px;
+    margin-left: 5px;
+    height: 32px;
+    /* margin-top: 5px; */
+}
+
+input[type="options"],
+textarea {
+    background-color: #fff;
+    border: 1px solid #CACACA;
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 160px;
+    margin-left: 5px;
+    height: 32px
+}
+
+h4,
+h5 {
+    padding-left: 8px;
+
+}
+
+#overallExperience {
+    width: 150px;
+    height: 35px;
+    padding: 2px;
+    margin-left: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #cacaca;
+    border-radius: 10px;
+    background-color: #fff;
+    font-size: 15px;
+}
+
+/* Style the option elements */
+#overallExperience option {
+    background-color: #edf1f7;
+    font-size: 14px;
+
+}
+
+#overallExperience:focus {
+    border-color: #000000;
+    outline: none;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        VehiGo-Host Page
+    </title>
+    <link rel="icon" href="./favicon.svg" type="image/x-icon">
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./styles/hostRegistration.css">
+
+    <!-- 
+- google font link
+-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&family=Open+Sans&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header" data-header>
+        <div class="container">
+
+            <div class="overlay" data-overlay></div>
+
+            <a href="index.html" class="logo">
+                <img src="./assets/images/vehigologo.png" alt="VehiGo logo">
+            </a>
+
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+
+                    <li>
+                        <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#featured-car" class="navbar-link" data-nav-link>Explore cars</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-link" data-nav-link>About us</a>
+                    </li>
+
+                    <li>
+                        <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+
+                <div class="header-contact">
+                    <a href="tel:1800100100" class="contact-link">1800-100-100</a>
+
+                    <span class="contact-time">Mon - Sat: 9:00 am - 6:00 pm</span>
+                </div>
+
+                <!-- <a href="#featured-car" class="btn" aria-labelledby="aria-label-txt">
+                    <ion-icon name="car-outline"></ion-icon>
+
+                    <span id="aria-label-txt">Explore cars</span>
+                </a>
+
+                <a href="./login.html" class="btn user-btn" aria-label="Profile">
+                    <ion-icon name="person-outline"></ion-icon>
+                </a>
+
+                <button class="nav-toggle-btn" data-nav-toggle-btn aria-label="Toggle Menu">
+                    <span class="one"></span>
+                    <span class="two"></span>
+                    <span class="three"></span>
+                </button> -->
+
+            </div>
+
+        </div>
+    </header>
+    <div class="regform">
+    <main class="form">
+        <h1>Car Verification</h1>
+        <p>Please fill out this form with the required information for Verification process</p>
+        <form method="post">
+            <fieldset>
+                <label for="Car-company">Car Company: <input id="Car-company" name="Car-company" type="text"
+                        required /></label>
+                <label for="car-model">Car Model: <input id="car-model" name="car-model" type="text" required /></label>
+                <label for="car-number">Car Number: <input id="car-number" name="car-number" type="text"
+                        required /></label>
+
+
+            </fieldset>
+            <fieldset>
+                <label for="RC">Upload RC Certificate: <input id="RC" type="file" name="file" class="field"
+                        class="custom-file-upload" /></label>
+                <label for="PUC">Upload PUC Certificate: <input id="PUC Certificate" type="file" name="file" /></label>
+                <label for="Insurance">Upload Vehicle's Insurance copy: <input id="Insurance" type="file"
+                        name="file" /></label>
+                <label for="Fitness">Upload Fitness Certificate: <input id="Fitness" type="file"
+                            name="file" /></label>
+            </fieldset>
+            <input type="submit" value="Submit" />
+        </form>
+    </main>
+</div>
+</body>
+
+</html>

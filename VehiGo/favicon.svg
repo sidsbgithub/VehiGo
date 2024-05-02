@@ -1,0 +1,11 @@
+<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g clip-path="url(#clip0_3_2)">
+    <rect width="36" height="36" rx="8" fill="AliceBlue" />
+    <text x="50%" y="50%" font-size="24" fill="#33334F" text-anchor="middle" dy="0.35em" font-family="Arial" font-weight="bold" stroke="#33334F" stroke-width="3">V</text>
+  </g>
+  <defs>
+    <clipPath id="clip0_3_2">
+      <rect width="36" height="36" rx="8" fill="white" />
+    </clipPath>
+  </defs>
+</svg>

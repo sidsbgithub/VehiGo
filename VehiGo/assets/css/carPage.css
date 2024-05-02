@@ -1,0 +1,91 @@
+.mainCar {
+    margin-top: 120px;
+    display: flex;
+    margin-bottom: 120px;
+    justify-content: center;
+}
+
+.carPage1 img {
+    /* margin-left: 5px;  */
+    width: 600px;
+    border-radius: 30px;
+    margin-right: 100px;
+}
+
+.carPage2{
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+
+.carDet {
+    display: flex;
+    margin-top: 12px;
+}
+
+p {
+    margin-top: 12px;
+    font-weight: normal;
+    display: inline-block;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+h3 {
+    margin-top: 12px;
+    display: inline;
+}
+
+/* input[type="submit"] {
+    display: block;
+    width: 20%;
+    margin: 1em auto;
+    height: 3em;
+    font-size: 1.1rem;
+    border-color: white;
+    min-width: 300px;
+    cursor: pointer;
+    color: white;
+    background-color: #40adf6;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    border-radius: 12px;
+} */
+
+button, a { transition: var(--transition); }
+
+.btn {
+  position: relative;
+  background: var(--background, var(--carolina-blue));
+  color: var(--color, var(--white));
+  min-width: var(--width, 40px);
+  min-height: var(--height, 40px);
+  padding: 5px;
+  display: grid;
+  place-items: center;
+  border-radius: var(--radius-14);
+  font-family: var(--ff-nunito);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-600);
+  overflow: hidden;
+  margin-top: 12px;
+}
+
+.btn ion-icon {
+  font-size: 22px;
+  --ionicon-stroke-width: 40px;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, hsla(0, 0%, 100%, 0.4), transparent);
+  opacity: 0;
+  pointer-events: none;
+  transition: var(--transition);
+}
+
+.btn:is(:hover, :focus) { box-shadow: var(--shadow-2); }
+
+.btn:is(:hover, :focus)::before { opacity: 1; }

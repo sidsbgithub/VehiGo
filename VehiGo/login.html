@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+
+    <title>Vehigo - Rent your favourite car</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/loginstyle.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <header class="header" data-header>
+        <div class="container">
+
+            <div class="overlay" data-overlay></div>
+
+            <a href="index.html" class="logo">
+                <img src="./assets/images/vehigologo.png" alt="VehiGo logo">
+            </a>
+
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+
+                    <li>
+                        <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+                    </li>
+
+                    <li>
+                        <a href="index.html#featured-car" class="navbar-link" data-nav-link>Explore cars</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-link" data-nav-link>About us</a>
+                    </li>
+
+                    <li>
+                        <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+
+                <div class="header-contact">
+                    <a href="tel:1800100100" class="contact-link">1800-100-100</a>
+
+                    <span class="contact-time">Mon - Sat: 9:00 am - 6:00 pm</span>
+                </div>
+
+                <!-- <a href="#featured-car" class="btn" aria-labelledby="aria-label-txt">
+                    <ion-icon name="car-outline"></ion-icon>
+
+                    <span id="aria-label-txt">Explore cars</span>
+                </a>
+
+                <a href="./login.html" class="btn user-btn" aria-label="Profile">
+                    <ion-icon name="person-outline"></ion-icon>
+                </a>
+
+                <button class="nav-toggle-btn" data-nav-toggle-btn aria-label="Toggle Menu">
+                    <span class="one"></span>
+                    <span class="two"></span>
+                    <span class="three"></span>
+                </button> -->
+
+            </div>
+
+        </div>
+    </header>
+    <section class="container forms">
+        <div class="form login" id="loginForm">
+            <div class="form-content">
+                <header>Login</header>
+                <form action="" method="GET">
+                    <div class="field input-field">
+                        <input id="email" type="email" placeholder="Email" class="input">
+                    </div>
+
+                    <div class="field input-field">
+                        <input id="password" type="password" placeholder="Password" class="password">
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+
+                    <div id="errorMessage"></div>
+                    <!-- <div class="form-link">
+                        <a href="#" class="forgot-pass">Forgot password?</a>
+                    </div> -->
+
+                    <div class="field button-field">
+                        <button type="submit">Login</button>
+                    </div>
+                </form>
+
+                <div class="form-link">
+                    <span>Don't have an account? <a href="#" class="link signup-link">Signup</a></span>
+                </div>
+            </div>
+
+            <!-- <div class="line"></div>
+
+            <div class="media-options">
+                <a href="#" class="field facebook">
+                    <i class='bx bxl-facebook-circle'></i>
+                    <span>Login with Facebook</span>
+                </a>
+                <a href="#" class="field google">
+                    <i class='bx bxl-google google-icon'></i>
+                    <span>Login with Google</span>
+                </a>
+            </div> -->
+        </div>
+
+        <!-- Signup Form -->
+
+        <div class="form signup">
+            <div class="form-content">
+                <header>Signup</header>
+                <form action="#">
+
+                    <div class="field input-field">
+                        <input id="name" type="text" placeholder="Your Name" class="name">
+                    </div>
+                    
+                    <div class="field input-field">
+                        <input id="signupEmail" type="email" placeholder="Email" class="email">
+                    </div>
+
+                    <div class="field input-field">
+                        <input  id="signupPassword" type="password" placeholder="Create password" class="password">
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+
+                    <div class="field input-field">
+                        <input id="phone_number" type="number" placeholder="Your Phone Number" class="ph-number">
+                    </div>
+
+                    <div class="field input-field">
+                        <input id="address" type="text" placeholder="Your Address" class="address">
+                    </div>
+
+                    <div class="field button-field">
+                        <button>Signup</button>
+                    <div id="errorMessage"></div>
+
+                    <div id="successMessage"></div>
+
+                    <div class="form-link">
+                        <span>Already have an account? <a href="#" class="link login-link">Login</a></span>
+                    </div>
+                </form>
+
+
+            </div>
+<!-- 
+            <div class="line"></div> -->
+
+             <!-- <div class="media-options">
+                    <a href="#" class="field facebook">
+                        <i class='bx bxl-facebook-circle'></i>
+                        <span>Login with Facebook</span>
+                    </a>
+                    <a href="#" class="field google">
+                        <img src="#" alt="" class="google-img">
+                        <span>Login with Google</span>
+                    </a>
+                </div>
+             
+                <div class="media-options">
+                <a href="#" class="field facebook">
+                    <i class='bx bxl-facebook facebook-icon'></i>
+                    <span>Login with Facebook</span>
+                </a>
+            </div>
+
+            <div class="media-options">
+                <a href="#" class="field google">
+                    <img src="#" alt="" class="google-img">
+                    <span>Login with Google</span>
+                </a>
+            </div> 
+
+        </div> -->
+    </section>
+
+    <!-- JavaScript -->
+    <script src="scripts/loginscript.js"></script>
+</body>
+
+</html>

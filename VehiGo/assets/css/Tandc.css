@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+.heading {
+    margin-top: 80px;
+    background-color: hsl(204, 91%, 53%);
+    border-radius: 20px;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.5em;
+
+}
+section {
+    margin: 20px 0;
+}
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.8em;
+}
+main{
+    width: 60%;
+    margin-left: 20%;
+    background-color: #fff;
+    padding: 20px 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+}

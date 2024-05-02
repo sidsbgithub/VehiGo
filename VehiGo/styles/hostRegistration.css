@@ -1,0 +1,124 @@
+/* ! Registration Page */
+
+main {
+    padding-top: 75px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #232836;
+    text-align: center;
+}
+
+header {
+    font-size: 28px;
+    font-weight: 600;
+    color: #232836;
+    text-align: center;
+}
+
+p {
+    margin: 1em auto;
+    text-align: center;
+}
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+
+}
+
+input,
+textarea {
+    background-color: white;
+    border: 1px solid#CACACA;
+    border-radius: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 20%;
+    margin: 1em auto;
+    height: 3em;
+    font-size: 1.1rem;
+    border-color: white;
+    min-width: 300px;
+    cursor: pointer;
+    color: white;
+    background-color: #0171d3;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    padding: 1px 2px;
+    cursor: pointer;
+    padding: 10px 12px;
+}
+
+input file-upload-button {
+    background-color: #0171d3;
+}
+
+.regform {
+    background-color: white;
+    margin: 0% 27.5%;
+    box-shadow: 3px 3px 20px hsla(240, 14%, 69%, 0.2);
+    ;
+}
+
+.field {
+    background: white;
+    border-radius: 10px;
+    /* box-shadow: 5px 5px 10px black; */
+    outline: none;
+    size: 10px;
+}
+
+::-webkit-file-upload-button {
+    color: white;
+    background: #0171d3;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    /* box-shadow: 1px 0 1px 1px #45486b; */
+}
+
+::-webkit-file-upload-button:hover {
+    background: #2b8de3;
+}
